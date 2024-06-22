@@ -1,0 +1,14 @@
+git init
+git status
+
+git add "filename"
+git add .
+
+git diff "filename"
+
+
+git commit -m "message"
+
+git log
+
+git checkout "filename"
