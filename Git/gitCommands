@@ -1,14 +1,34 @@
 git init
 git status
 
+//add to staging  area
 git add "filename"
+
+// all files
 git add .
+
 
 git diff "filename"
 
-
+//git commit 
 git commit -m "message"
 
+//git commit details
 git log
 
+//undo last commit
 git checkout "filename"
+
+//add remote 
+git remote add origin "link"
+
+//git branch
+git branch -M main
+
+
+git push -u origin main
+
+
+
+//delete branch
+git push origin --delete branch2 
